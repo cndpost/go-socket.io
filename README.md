@@ -1,3 +1,6 @@
+Notes: 7/10/2019 - the example code of chat server do not work. See fixes made on the repo of https://github.com/cndpost/readings 
+
+
 # go-socket.io
 
 [![GoDoc](http://godoc.org/github.com/googollee/go-socket.io?status.svg)](http://godoc.org/github.com/googollee/go-socket.io) [![Build Status](https://travis-ci.org/googollee/go-socket.io.svg)](https://travis-ci.org/googollee/go-socket.io)

@@ -40,11 +40,6 @@ func (s *Server) OnConnect(nsp string, f func(Conn) error) {
 	h.OnConnect(f)
 }
 
-func (s *Server) On(nsp string, f func(Socket) error) {
-	h := s.getNamespace(nsp)
-	h.OnConnect(f)
-}
-
 // OnDisconnect set a handler function f to handle disconnect event for
 // namespace nsp.
 func (s *Server) OnDisconnect(nsp string, f func(Conn, string)) {
